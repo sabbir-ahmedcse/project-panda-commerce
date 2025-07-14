@@ -136,6 +136,7 @@ li a {
     display: flex;
     gap: 26px;
     width: 100%;
+    margin-bottom: 60px;
 
 }
 
@@ -171,10 +172,92 @@ li a {
     background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%, rgb(63, 7, 248) 74.29%);
 }
 
-.shoe-card {
-  background-color: white;
-  border-radius: 10px;
-  text-align: center;
-  padding: 25px;
-  box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
+/* shoe style  */
+
+.shoes-section-titile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
+
+.shoes-section-titile h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F1F1F;
+}
+
+.shoes-section-titile p {
+    font-size: 20 px;
+    font-weight: 500;
+    color: #FF9D00;
+}
+
+
+
+
+.shoes-section {
+    background-color: #F4F4F4;
+    padding: 40px 40px 40px 40px;
+}
+
+.shoe-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+
+}
+
+.shoe-card {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
+}
+
+.shoe-card img {
+    width: 300px;
+    height: 200px;
+}
+
+.card-price {
+    margin-bottom: 12px;
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.shoe-card .btn-primary {
+    background: black;
+}
+
+/* footer style  */
+
+.contact-us-parent {
+    background-color: #FEEAE9;
+    margin: 30px 100px 0 100px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    
+     padding: 100px 100px;
+    
+}
+
+
+
+.contact-int-section .input {
+    border: none;
+    padding: 18px 150px;
+    border-radius: 10px;
+    margin-right: 10px
+     
+    
+
+}
+
+
+
